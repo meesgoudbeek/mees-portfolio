@@ -1,0 +1,109 @@
+[
+  {
+    "legend": "Jouw contact informatie",
+    "columns": 3,
+    "fields": [
+      {
+        "type": "text",
+        "name": "first-name",
+        "placeholder": "Voornaam",
+        "autoComplete": "given-name",
+        "required": true
+      },
+      {
+        "type": "text",
+        "name": "last-name",
+        "placeholder": "Achternaam",
+        "autoComplete": "family-name",
+        "required": true
+      },
+      {
+        "type": "text",
+        "name": "email",
+        "placeholder": "Email",
+        "autoComplete": "email",
+        "inputType": "email",
+        "required": true
+      },
+      {
+        "type": "text",
+        "name": "company",
+        "placeholder": "Bedrijfsnaam",
+        "autoComplete": "company"
+      },
+      {
+        "type": "text",
+        "name": "phone",
+        "placeholder": "Telefoonnummer",
+        "autoComplete": "phone"
+      }
+    ]
+  },
+  {
+    "legend": "Welke diensten heeft u nodig voor uw project?",
+    "columns": 3,
+    "fields": [
+      {
+        "type": "checkbox",
+        "name": "project-type[Website Ontwikkeling]",
+        "label": "Website Ontwikkeling"
+      },
+      {
+        "type": "checkbox",
+        "name": "project-type[Website Design]",
+        "label": "Website Design"
+      },
+      {
+        "type": "checkbox",
+        "name": "project-type[Website Migratie]",
+        "label": "Website Migratie"
+      },
+      {
+        "type": "checkbox",
+        "name": "project-type[E-commerce Site]",
+        "label": "E-commerce Site"
+      },
+      {
+        "type": "checkbox",
+        "name": "project-type[Performance Evaluatie]",
+        "label": "Performance Evaluatie"
+      }
+    ]
+  },
+  {
+    "legend": "Hoeveel is het verwachte budget?",
+    "columns": 3,
+    "fields": [
+      {
+        "type": "radio",
+        "name": "budget",
+        "value": "Minder dan €1.000",
+        "label": "Minder dan €1.000"
+      },
+      {
+        "type": "radio",
+        "name": "budget",
+        "value": "€1.000 - €5.000",
+        "label": "€1.000 - €5.000"
+      },
+      {
+        "type": "radio",
+        "name": "budget",
+        "value": "Meer dan €5.000",
+        "label": "Meer dan €5.000"
+      }
+    ]
+  },
+  {
+    "legend": "Vertel me over je project",
+    "columns": 1,
+    "fields": [
+      {
+        "type": "textarea",
+        "name": "bericht",
+        "placeholder": "Project omschrijving",
+        "rows": 3
+      }
+    ]
+  }
+]
