@@ -50,7 +50,7 @@ const Layout = ({
             <h1 className="mb-0">{title}</h1>
             <div className="flex items-center justify-center">
               <div className="basis-1/3 text-right">
-                By <strong>{authorName}</strong>
+                Door <strong>{authorName}</strong>
               </div>
               <div className="not-prose mx-6 box-content h-24 w-24 overflow-hidden rounded-full border-4 border-alpha bg-alpha">
                 <Image
@@ -96,10 +96,6 @@ const Layout = ({
           </div>
 
           <Sep line className="my-20" />
-
-          <div className="mx-auto max-w-lg">
-            <Newsletter className="text-center" />
-          </div>
         </div>
       </div>
     </>
