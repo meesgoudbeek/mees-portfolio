@@ -25,7 +25,7 @@ const SocialShare = (props) => {
       )}
       {...rest}
     >
-      <div className="hidden sm:block md:mb-4 md:-rotate-90">Sharing</div>
+      <div className="hidden sm:block md:mb-4 md:-rotate-90">Delen</div>
       <div className="hidden h-px w-6 bg-white sm:block md:h-6 md:w-px"></div>
       <FacebookShareButton url={url} quote={quote}>
         <FacebookIcon size={size} round={round} />
@@ -39,9 +39,6 @@ const SocialShare = (props) => {
       <WhatsappShareButton url={url} title={quote} separator=":: ">
         <WhatsappIcon size={size} round={round} />
       </WhatsappShareButton>
-      <PocketShareButton url={url} title={'Next Share'}>
-        <PocketIcon size={size} round={round} />
-      </PocketShareButton>
       <EmailShareButton url={url} subject={quote} body="body">
         <EmailIcon size={size} round={round} />
       </EmailShareButton>
